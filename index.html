@@ -24,6 +24,40 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
     />
+
+    <style>
+         #img-container:hover{
+          content: '123';
+         }
+       #trainer-img{
+        height: 300px;
+       }
+
+      @media(max-width:650px){
+        #services-cards{
+        display: block;
+      }
+
+      #trainer-img{
+        max-width: 200px;
+        height: 300px;
+        object-fit:cover;
+      }
+      }
+
+   
+
+   @media(max-width:350px){
+    #trainer-img{
+        max-width: 150px;
+        
+      }
+      #img-container{
+        margin: 0;
+        padding: 0;
+      }
+   }
+    </style>
     <title>Maxfit VIP Gym</title>
   </head>
   <body class="text-gray-800 antialiased">
@@ -59,21 +93,21 @@
             <li class="flex items-center">
               <a
                 class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
-                href="/"
+                href="#about"
                 >About Us</a
               >
             </li>
             <li class="flex items-center">
               <a
                 class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
-                href="/"
+                href="#contact"
                 >Contact Us</a
               >
             </li>
             <li class="flex items-center">
               <a
                 class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
-                href="/"
+                href="#services"
                 >Services</a
               >
             </li>
@@ -130,14 +164,12 @@
         <div class="container relative mx-auto">
           <div class="items-center flex flex-wrap">
             <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-              <div class="pr-12">
+              <div>
                 <h1 class="text-white font-semibold text-5xl">
-                  Feel The <span class="text-orange-500">Power</span>
+                  Welcome To <span class="text-orange-500 ">Maxfit VIP GYM</span>
                 </h1>
                 <p class="mt-4 text-lg text-gray-300">
-                  Welcome to The Power Room. We are a fitness and training
-                  center that focuses on pushing you to your absolute limit.
-                  Download our complete brochure to get started today!
+                  Fitness Trainers and Instructors Lead,Motivate individuals or groups in exercise activities including Cardiovascular Exercises (Exercises For The Heart and Blood System), Strength Training and Stretching.Favorable for All Ages.
                 </p>
                 <a
                   href="#"
@@ -242,14 +274,14 @@
       <!-- Trainers Section -->
       <section class="pt-20 pb-48">
         <div class="container mx-auto px-4">
-          <div class="flex flex-wrap justify-center text-center mb-24">
+          <div class="flex flex-wrap justify-center text-center mb-24" >
             <div class="w-full lg:w-6/12 px-4">
               <h2 class="text-4xl font-semibold uppercase">
-                Meet Our Trainers
+                Meet Our Trainer
               </h2>
               <p class="text-lg leading-relaxed m-4">
-                Our trainers are are here to dedicate the time and effort that
-                you need to get in the best shape of your life
+                Our trainer is  dedicate the time and effort that
+                you need to get in the best shape of your life.
               </p>
             </div>
           </div>
@@ -257,61 +289,22 @@
           <div class="flex flex-wrap">
             <!-- Card 1 -->
             <div
-              class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
-              data-aos="flip-right"
+              class="w-full md:w-12 lg:mb-0 mb-12 px-4"
+              data-aos="flip-right" id="img-container"
             >
               <div class="px-6">
                 <img
                   alt="..."
-                  src="https://images.unsplash.com/photo-1597347343908-2937e7dcc560?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                  src="./assets/img/showcase.jpg"
                   class="shadow-lg rounded max-w-full mx-auto"
-                  style="max-width: 250px"
+                  style="max-width: 250px" id="trainer-img" 
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Mr Rogers</h5>
+                  <h5 class="text-xl font-bold">Mr. Mohommad Sajan</h5>
                   <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    Neighborhood Watchman
+                    Founder /Trainer
                   </p>
-                </div>
-              </div>
-            </div>
-            <!-- Card 2 -->
-            <div
-              class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
-              data-aos="flip-right"
-            >
-              <div class="px-6">
-                <img
-                  alt="..."
-                  src="https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-                  class="shadow-lg rounded max-w-full mx-auto"
-                  style="max-width: 250px"
-                />
-                <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Strawberry Shortcake</h5>
-                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    Cupcake Smasher
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- Card 3 -->
-            <div
-              class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
-              data-aos="flip-right"
-            >
-              <div class="px-6">
-                <img
-                  alt="..."
-                  src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
-                  class="shadow-lg rounded max-w-full mx-auto"
-                  style="max-width: 250px"
-                />
-                <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Ronald McDonald</h5>
-                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    Double Whoopass With Cheese
-                  </p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequatur, error quo illo sequi alias ipsum. Aliquid dolores cupiditate molestias! Dolores perferendis alias culpa nisi necessitatibus, unde illo similique dolorum non ullam labore fugiat neque, doloribus accusantium et architecto cum nihil fugit nam perspiciatis rerum amet quam possimus. Eius, non.</p>
                 </div>
               </div>
             </div>
@@ -351,8 +344,9 @@
           </div>
         </div>
       </section>
+
       <!-- Contact Form -->
-      <section class="relative block py-24 lg:pt-0 bg-black">
+      <section class="relative block py-24 lg:pt-0 bg-black" id="contact">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
             <div class="w-full lg:w-6/12 px-4">
@@ -412,6 +406,145 @@
                       Send Message
                     </button>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- services section -->
+      <section class="pb-20 relative block bg-white text-black">
+        <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px; transform: translateZ(0px)"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon points="2560 0 2560 100 0 100"></polygon>
+          </svg>
+        </div>
+        <div class="container mx-auto px-4 lg:pt-24 lg:pb-64 pb-20 pt-20">
+          <div class="flex flex-wrap text-center justify-center">
+            <div class="w-full lg:w-6/12 px-4">
+              <h2 class="text-4xl font-semibold text-black uppercase">
+                Our Services
+              </h2>
+              <p class="text-lg leading-relaxed mt-4 mb-4">
+                The Exclusive Services We Provide
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section-->
+      <section class="relative block py-24 lg:pt-0 bg-white" id="services">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+            <div class="flex space-x-4 " id="services-cards">
+              <!-- 1 -->
+              <div class="flex-1" data-aos="flip-right">
+                <div class="px-6 text-center">
+                  <i class="fas fa-dumbbell fa-4x text-orange-500"></i>
+                  <div class="pt-6 text-center">
+                    <h5 class="text-xl font-bold">Great Equipment</h5>
+                    <p
+                      class="mt-1 text-sm text-gray-500 uppercase font-semibold"
+                    >
+                      We Provide You the Newest & Gretest Equipments to Train.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 2 -->
+              <div class="flex-1" data-aos="flip-right">
+                <div class="px-6 text-center">
+                  <i class="fas fa-user-friends fa-4x text-orange-500"></i>
+                  <div class="pt-6 text-center">
+                    <h5 class="text-xl font-bold">Individual Attention</h5>
+                    <p
+                      class="mt-1 text-sm text-gray-500 uppercase font-semibold"
+                    >
+                      Our Trainer will always monitor You Process of training and will be 100% available.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3 -->
+              <div class="flex-1" data-aos="flip-right">
+                <div class="px-6 text-center">
+                  <i class="fas fa-door-open fa-4x text-orange-500"></i>
+                  <div class="pt-6 text-center">
+                    <h5 class="text-xl font-bold">Open Hours</h5>
+                    <p
+                      class="mt-1 text-sm text-gray-500 uppercase font-semibold"
+                    >
+                      We are Open From 6:30 a.m - 22:30 p.m everyday except Sunday.
+                    </p>
+                  </div>
+                </div>
+              </div>
+                  </div>
+
+                  <!-- Servies Second Batch -->
+                  <br>
+
+                  <div class="flex space-x-4" id="services-cards">
+                    <!-- 4 -->
+                    <div class="flex-1" data-aos="flip-right">
+                      <div class="px-6 text-center">
+                        <i class="fas fa-users fa-4x text-orange-500"></i>
+                        <div class="pt-6 text-center">
+                          <h5 class="text-xl font-bold">Friendly Environment</h5>
+                          <p
+                            class="mt-1 text-sm text-gray-500 uppercase font-semibold"
+                          >
+                            We Have a Healthy Environment to Workout and Great People to hagout with.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+      
+                    <!-- 5 -->
+                    <div class="flex-1" data-aos="flip-right">
+                      <div class="px-6 text-center">
+                        <i class="fas fa-heartbeat fa-4x text-orange-500"></i>
+                        <div class="pt-6 text-center">
+                          <h5 class="text-xl font-bold">Health & Dietary Support</h5>
+                          <p
+                            class="mt-1 text-sm text-gray-500 uppercase font-semibold"
+                          >
+                            We will provide Dietary Support each and every Individual's body Condition.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+      
+                    <!-- 6 -->
+                    <div class="flex-1" data-aos="flip-right">
+                      <div class="px-6 text-center">
+                        <i class="fas fa-chart-line fa-4x text-orange-500"></i>
+                        <div class="pt-6 text-center">
+                          <h5 class="text-xl font-bold">Individual Charts</h5>
+                          <p
+                            class="mt-1 text-sm text-gray-500 uppercase font-semibold"
+                          >
+                            We will provide you a Workout chart focused on your body.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
                 </div>
               </div>
             </div>
