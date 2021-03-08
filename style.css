@@ -3,6 +3,8 @@
 }
 #trainer-img {
   height: 300px;
+  width: 200px;
+  object-fit: cover;
 }
 
 .stock-img {
@@ -18,6 +20,14 @@
     width: 350px;
     object-fit: cover;
     margin-top: -5px;
+  }
+}
+
+@media (max-width: 1150px) {
+  #trainer-img {
+    height: 300px;
+    width: 170px;
+    object-fit: cover;
   }
 }
 
