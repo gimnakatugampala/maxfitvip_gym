@@ -21,6 +21,18 @@
   white-space: nowrap;
 }
 
+#button-read-more {
+  display: block;
+}
+
+.promo-img {
+  width: 400px;
+}
+
+#number {
+  font-size: 20px;
+}
+
 @media (max-width: 650px) {
   #services-cards {
     display: block;
@@ -34,6 +46,10 @@
     max-width: 200px;
     height: 300px;
     object-fit: cover;
+  }
+
+  #call-online {
+    display: none;
   }
 }
 

@@ -34,6 +34,7 @@
       href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
     />
 
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Maxfit VIP Gym</title>
   </head>
@@ -70,36 +71,43 @@
             <li class="flex items-center">
               <a
                 class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white lg:hover:text-gray-300 text-gray-500 "
+                href="promotions.html"
+                ><span class="inline-block ml-2"><i class="text-yellow-400 lg:hidden fas fa-arrow-up text-lg leading-lg"></i>Promotions</span></a
+              >
+            </li>
+            <li class="flex items-center">
+              <a
+                class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white lg:hover:text-gray-300 text-gray-500 "
                 href="branches.html"
-                ><span class="inline-block ml-2"><i class="text-orange-500 lg:hidden fas fa-building text-lg leading-lg"></i> Branches</span></a
+                ><span class="inline-block ml-2"><i class="text-yellow-400 lg:hidden fas fa-building text-lg leading-lg"></i> Branches</span></a
               >
             </li>
             <li class="flex items-center">
               <a
                 class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white lg:hover:text-gray-300 text-gray-500 "
                 href="#about"
-                ><span class="inline-block ml-2"><i class="text-orange-500 lg:hidden fas fa-address-card text-lg leading-lg"></i> About Us</span></a
+                ><span class="inline-block ml-2"><i class="text-yellow-400 lg:hidden fas fa-address-card text-lg leading-lg"></i> About Us</span></a
               >
             </li>
             <li class="flex items-center">
               <a
                 class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white lg:hover:text-gray-300 text-gray-500 "
                 href="#contact"
-                ><span class="inline-block ml-2"><i class="text-orange-500 lg:hidden fas fa-address-book text-lg leading-lg"></i> Contact Us</span></a
+                ><span class="inline-block ml-2"><i class="text-yellow-400 lg:hidden fas fa-address-book text-lg leading-lg"></i> Contact Us</span></a
               >
             </li>
             <li class="flex items-center">
               <a
                 class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white lg:hover:text-gray-300 text-gray-500"
                 href="#services"
-                ><span class="inline-block ml-2"><i class="text-orange-500 lg:hidden fas fa-user-shield text-lg leading-lg"></i> Services</span></a
+                ><span class="inline-block ml-2"><i class="text-yellow-400 lg:hidden fas fa-user-shield text-lg leading-lg"></i> Services</span></a
               >
             </li>
             <li class="flex items-center">
               <a
-                class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white lg:hover:text-gray-300 text-gray-500"
+                class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white lg:hover:text-gray-400 text-gray-500"
                 href="#explore"
-                ><span class="inline-block ml-2"><i class="text-orange-500 lg:hidden far fa-compass  text-lg leading-lg"></i> Explore</span></a
+                ><span class="inline-block ml-2"><i class="text-yellow-400 lg:hidden far fa-compass  text-lg leading-lg"></i> Explore</span></a
               >
             </li>
 
@@ -110,7 +118,7 @@
                 href="https://web.facebook.com/maxfitgymwellampitiya/"
                 target="_blank"
                 ><i
-                  class="text-orange-500 fab fa-facebook text-lg leading-lg"
+                  class="text-yellow-400 fab fa-facebook text-lg leading-lg"
                 ></i
                 ><span class="lg:hidden inline-block ml-2">Facebook</span></a
               >
@@ -124,7 +132,7 @@
                 href="https://www.instagram.com/maxfit_vip_gym/"
                 target="_blank"
                 ><i
-                  class="text-orange-500 fab fa-instagram text-lg leading-lg"
+                  class="text-yellow-400 fab fa-instagram text-lg leading-lg"
                 ></i
                 ><span class="lg:hidden inline-block ml-2">Instagram</span></a
               >
@@ -147,13 +155,19 @@
             background-image: url('./assets/img/hero.jpg');
           "
         >
-        <div class="absolute top-2.5 left-2.5 w-16 h-12">
+        <div class="absolute top-2.5 left-2.5 w-12 h-8">
           <img src="./assets/img/logo.jpeg">
         </div>
+        <div class="absolute top-20 right-36 w-16 h-12 whitespace-no-wrap m-0" id="call-online">
+          <i class="fas fa-phone-alt fa-2x text-yellow-400 m-0 relative">
+          <p class="absolute  top-0 left-9" id="number"> Call Us : <br> 0773773816</p>
+        </i>
+        </div>
+          
           
           <span
             id="blackOverlay"
-            class="w-full h-full absolute opacity-75 bg-black"
+            class="w-full h-full absolute opacity-25 bg-black"
           ></span>
         </div>
         <div class="container relative mx-auto">
@@ -161,14 +175,14 @@
             <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
               <div>
                 <h1 class="text-white font-semibold text-5xl">
-                  Welcome To <span class="text-orange-500 ">Maxfit VIP GYM</span>
+                  Welcome To <span class="text-yellow-400 ">Maxfit VIP GYM</span>
                 </h1>
                 <p class="mt-4 text-lg text-gray-300">
                   Fitness Trainers and Instructors Lead,Motivate individuals or groups in exercise activities including Cardiovascular Exercises (Exercises For The Heart and Blood System), Strength Training and Stretching.Favorable for All Ages.
                 </p>
                 <a
                   href="./assets/img/promo.jpg"
-                  class="bg-transparent hover:bg-orange-500 text-orange-500 font-semibold hover:text-white p-4 border border-orange-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer" download
+                  class="bg-transparent hover:bg-yellow-300 text-yellow-300 font-semibold hover:text-white p-4 border border-orange-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer" download
                   >Download Brochure</a
                 >
               </div>
@@ -206,7 +220,7 @@
             </div>
             <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
               <div class="md:pr-12">
-                <small class="text-orange-500">About our Gym</small>
+                <small class="text-yellow-400">About our Gym</small>
                 <h3 class="text-4xl uppercase font-bold">Safe Body Building</h3>
                 <p class="mt-4 text-lg leading-relaxed">
                   The extension comes with three pre-built pages to help you get
@@ -218,7 +232,7 @@
                     <div class="flex items-center">
                       <div>
                         <span
-                          class="font-semibold inline-block py-3 mr-3 text-orange-500"
+                          class="font-semibold inline-block py-3 mr-3 text-yellow-300"
                           ><i class="fas fa-dumbbell fa-2x"></i
                         ></span>
                       </div>
@@ -234,7 +248,7 @@
                     <div class="flex items-center">
                       <div>
                         <span
-                          class="font-semibold inline-block py-3 mr-3 text-orange-500"
+                          class="font-semibold inline-block py-3 mr-3 text-yellow-400"
                           ><i class="fas fa-hard-hat fa-2x"></i
                         ></span>
                       </div>
@@ -250,7 +264,7 @@
                     <div class="flex items-center">
                       <div>
                         <span
-                          class="font-semibold inline-block py-3 mr-3 text-orange-500"
+                          class="font-semibold inline-block py-3 mr-3 text-yellow-400"
                           ><i class="fas fa-users fa-2x"></i
                         ></span>
                       </div>
@@ -544,7 +558,7 @@
                 class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300"
                 data-aos="fade-up-right"
               >
-                <div class="flex-auto p-5 lg:p-10 bg-orange-500 text-white">
+                <div class="flex-auto p-5 lg:p-10 bg-yellow-400 text-white">
                   <h4 class="text-2xl font-semibold">
                     Want to know about our service?
                   </h4>
@@ -653,7 +667,7 @@
               <!-- 1 -->
               <div class="flex-1" data-aos="flip-right">
                 <div class="px-6 text-center">
-                  <i class="fas fa-dumbbell fa-4x text-orange-500"></i>
+                  <i class="fas fa-dumbbell fa-4x text-yellow-400"></i>
                   <div class="pt-6 text-center">
                     <h5 class="text-xl font-bold">Great Equipment</h5>
                     <p
@@ -668,7 +682,7 @@
               <!-- 2 -->
               <div class="flex-1" data-aos="flip-right">
                 <div class="px-6 text-center">
-                  <i class="fas fa-user-friends fa-4x text-orange-500"></i>
+                  <i class="fas fa-user-friends fa-4x text-yellow-400"></i>
                   <div class="pt-6 text-center">
                     <h5 class="text-xl font-bold">Individual Attention</h5>
                     <p
@@ -683,7 +697,7 @@
               <!-- 3 -->
               <div class="flex-1" data-aos="flip-right">
                 <div class="px-6 text-center">
-                  <i class="fas fa-door-open fa-4x text-orange-500"></i>
+                  <i class="fas fa-door-open fa-4x text-yellow-400"></i>
                   <div class="pt-6 text-center">
                     <h5 class="text-xl font-bold">Open Hours</h5>
                     <p
@@ -703,7 +717,7 @@
                     <!-- 4 -->
                     <div class="flex-1" data-aos="flip-right">
                       <div class="px-6 text-center">
-                        <i class="fas fa-users fa-4x text-orange-500"></i>
+                        <i class="fas fa-users fa-4x text-yellow-400"></i>
                         <div class="pt-6 text-center">
                           <h5 class="text-xl font-bold">Friendly Environment</h5>
                           <p
@@ -718,7 +732,7 @@
                     <!-- 5 -->
                     <div class="flex-1" data-aos="flip-right">
                       <div class="px-6 text-center">
-                        <i class="fas fa-heartbeat fa-4x text-orange-500"></i>
+                        <i class="fas fa-heartbeat fa-4x text-yellow-400"></i>
                         <div class="pt-6 text-center">
                           <h5 class="text-xl font-bold">Health & Dietary Support</h5>
                           <p
@@ -733,7 +747,7 @@
                     <!-- 6 -->
                     <div class="flex-1" data-aos="flip-right">
                       <div class="px-6 text-center">
-                        <i class="fas fa-chart-line fa-4x text-orange-500"></i>
+                        <i class="fas fa-chart-line fa-4x text-yellow-400"></i>
                         <div class="pt-6 text-center">
                           <h5 class="text-xl font-bold">Individual Charts</h5>
                           <p
@@ -1033,7 +1047,7 @@
                 href="https://web.facebook.com/maxfitgymwellampitiya/"
                 target="_blank"
               >
-                <i class="flex fab fa-facebook text-orange-500"></i>
+                <i class="flex fab fa-facebook text-yellow-400"></i>
               </a>
               <a
                 class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
@@ -1041,7 +1055,7 @@
                 href="https://www.instagram.com/maxfit_vip_gym/"
                 target="_blank"
               >
-                <i class="flex fab fa-instagram text-orange-500"></i>
+                <i class="flex fab fa-instagram text-yellow-400"></i>
               </a>
             </div>
           </div>
