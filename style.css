@@ -31,6 +31,7 @@
 
 #number {
   font-size: 20px;
+  font-family: "Nutindo";
 }
 
 @media (max-width: 650px) {
