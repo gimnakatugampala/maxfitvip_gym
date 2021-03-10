@@ -120,7 +120,7 @@
           
           <span
             id="blackOverlay"
-            class="w-full h-full absolute opacity-50 bg-black"
+            class="w-full h-full absolute opacity-75 bg-black"
           ></span>
         </div>
         <div class="container relative mx-auto">
@@ -130,11 +130,6 @@
                 <h1 class="text-white font-semibold text-5xl">
                   Our <span class="text-yellow-400">Madawala</span> Branch
                 </h1>
-                <a
-                  href="/branches.html"
-                  class="bg-transparent hover:bg-yellow-400 text-yellow-400 font-semibold hover:text-white p-4 border border-yellow-400 hover:border-transparent rounded inline-block mt-5 cursor-pointer"
-                  >Go Back</a
-                >
               </div>
             </div>
           </div>
@@ -258,6 +253,13 @@
                           </div>
                            </div>
                       </div>
+
+                      <a
+                      href="/branches.html"
+                      class="bg-transparent hover:bg-yellow-400 text-yellow-400 font-semibold hover:text-white p-4 border border-yellow-400 hover:border-transparent rounded inline-block mt-5 cursor-pointer"
+                      >Go Back</a
+                    >
+
                     </div>
                   </div>
                 </div>
@@ -265,7 +267,78 @@
             </section>
 
     </main>
+
+     <!-- Footer -->
+     <footer class="relative bg-gray-300 pt-8 pb-6">
+      <div
+        class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px; transform: translateZ(0px)"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+          <polygon
+            class="text-gray-300 fill-current"
+            points="2560 0 2560 100 0 100"
+          ></polygon>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4 mb-4">
+            <h4 class="text-3xl font-semibold">Follow us on social media</h4>
+            <h5 class="text-lg mt-0 mb-2 text-gray-700">
+              Find us on any of these platforms, we respond Available 24/7.
+            </h5>
+            <div class="mt-6">
+              <a
+                class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+                href="https://web.facebook.com/maxfitgymwellampitiya/"
+                target="_blank"
+              >
+                <i class="flex fab fa-facebook text-yellow-400"></i>
+              </a>
+              <a
+                class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+                href="https://www.instagram.com/maxfit_vip_gym/"
+                target="_blank"
+              >
+                <i class="flex fab fa-instagram text-yellow-400"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Facebook page details -->
+          <div class="fb-page" data-href="https://web.facebook.com/maxfitgymwellampitiya" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://web.facebook.com/maxfitgymwellampitiya" class="fb-xfbml-parse-ignore"><a href="https://web.facebook.com/maxfitgymwellampitiya">Maxfit VIP GYM</a></blockquote></div>
+
+        </div>
+        <hr class="my-6 border-gray-400" />
+        <div
+          class="flex flex-wrap items-center md:justify-between justify-center"
+        >
+          <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+            <div class="text-sm text-gray-600 font-semibold py-1">
+              Copyrights © Maxfit VIP Gym 2021 <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
+
+    <!-- The facebook plugin -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0&appId=554677412120258&autoLogAppEvents=1" nonce="lvWxiB0a"></script>
+    
+
   <script>
     function toggleNavbar(collapseID) {
       document.getElementById(collapseID).classList.toggle("hidden");

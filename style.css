@@ -4,6 +4,7 @@
 #trainer-img {
   height: 300px;
   object-fit: cover;
+  margin-bottom: 10px;
 }
 
 .stock-img {
@@ -31,8 +32,17 @@
 
 #number {
   font-size: 20px;
-  font-family: "Nutindo";
 }
+
+#back {
+  margin: auto;
+}
+
+/* @media (max-width: 995px) {
+  #trainer-img {
+    margin-left: 200px;
+  }
+} */
 
 @media (max-width: 650px) {
   #services-cards {
