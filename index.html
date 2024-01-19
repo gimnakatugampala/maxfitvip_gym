@@ -35,6 +35,9 @@
     />
 
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    
+
+
     <link rel="stylesheet" href="style.css">
     <title>Maxfit VIP Gym</title>
   </head>
@@ -68,6 +71,13 @@
         >
           <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
             <!-- links -->
+            <li class="flex items-center">
+              <a
+                class="text-md font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white lg:hover:text-gray-300 text-gray-500 "
+                href="gallery.html"
+                ><span class="inline-block ml-2"><i class="text-yellow-400 lg:hidden fas fa-calendar-alt text-lg leading-lg"></i>Gallery</span></a
+              >
+            </li>
             <li class="flex items-center">
               <a
                 class="text-md font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white lg:hover:text-gray-300 text-gray-500 "
@@ -165,10 +175,14 @@
         <div class="absolute top-2.5 left-2.5 w-12 h-8">
           <img src="./assets/img/logo.jpeg">
         </div>
-        <div class="absolute top-20 right-36 w-16 h-12 whitespace-no-wrap m-0" id="call-online">
-          <i class="fas fa-phone-alt fa-2x text-yellow-400 m-0 relative">
-          <p class="absolute  top-0 left-9" id="number"> Call Us : <br> 0773773816</p>
-        </i>
+        <div class="absolute top-20 right-36 w-50 h-12 whitespace-no-wrap m-0" id="call-online">
+          <div class="flex items-center justify-center">
+            <i class="fas fa-phone-alt fa-x text-yellow-400 p-3"></i>
+            <p class="flex top-0 left-8 m-0 p-0 text-yellow-400 uppercase" id="number">Call Us : <br></p>
+          </div>
+          <div class="flex items-center justify-center">
+            <a style="letter-spacing: 5px;" class="text-white tracking-widest text-lg">+94 773773816</a>
+          </div>
         </div>
           
           
@@ -189,7 +203,7 @@
                  Maxfit VIP Gym , a top-class facility equipped with state-of-the-art sports quipment with a strength training zone and cardiovascular area are complemented by a group exercise area for an exciting range of workouts its head trainer.We are Registered under <strong>Sri Lanka Body Building and Fitness Fedration Registerd Gym <small>(Reg No 197)</small></strong>. <strong> Our Gym is For Men and Women from 06 - 85 Ages.</strong>
                 </p>
                 <a
-                  href="./assets/img/promo.jpg"
+                  href="./assets/img/promo/men_promo-min.jpg"
                   class="bg-transparent hover:bg-yellow-300 text-yellow-300 font-semibold hover:text-white p-4 border border-yellow-400 hover:border-transparent rounded inline-block mt-5 cursor-pointer" download
                   >Download Brochure</a
                 >
@@ -392,7 +406,7 @@
              <div class="px-6 max-4">
                <img
                  alt="..."
-                 src="./assets/img/showcase.jpg"
+                 src="./assets/img/trainer/miskin.jpg"
                  class="shadow-lg rounded max-w-full mx-auto "
                  style="max-width: 200px" id="trainer-img" 
                />
@@ -412,140 +426,7 @@
 
           </div>
 
-          <br>
-          <!-- 1 Batch -->
-          <div class="flex space-x-4 " id="services-cards">
-
-            <!-- 1 -->
-            <div class="flex-1" data-aos="flip-right">
-              <div class="px-6 text-center">
-               <img src="./assets/img/trainer/11.jpg" class="stock-img">
-              </div>
-            </div>
-
-            <!-- 2 -->
-            <div class="flex-1" data-aos="flip-right">
-              <div class="px-6 text-center">
-                <img src="./assets/img/trainer/2.jpg" class="stock-img">
-              </div>
-            </div>
-
-            <!-- 3 -->
-            <div class="flex-1" data-aos="flip-right">
-              <div class="px-6 text-center">
-                <img src="./assets/img/trainer/3.jpg" class="stock-img">
-              </div>
-            </div>
-
-            <!-- 4 -->
-            <div class="flex-1" data-aos="flip-right">
-              <div class="px-6 text-center">
-                <img src="./assets/img/trainer/4.jpg" class="stock-img">
-              </div>
-            </div>
-                </div>
-
-
-                <br>
-                <!-- 2 Batch -->
-                <div class="flex space-x-4 " id="services-cards">
       
-                  <!-- 5 -->
-                  <div class="flex-1" data-aos="flip-right">
-                    <div class="px-6 text-center">
-                     <img src="./assets/img/trainer/5.jpg" class="stock-img">
-                    </div>
-                  </div>
-      
-                  <!-- 6 -->
-                  <div class="flex-1" data-aos="flip-right">
-                    <div class="px-6 text-center">
-                      <img src="./assets/img/trainer/6.jpg" class="stock-img">
-                    </div>
-                  </div>
-      
-                  <!-- 7 -->
-                  <div class="flex-1" data-aos="flip-right">
-                    <div class="px-6 text-center">
-                      <img src="./assets/img/trainer/7.jpg" class="stock-img">
-                    </div>
-                  </div>
-      
-                  <!-- 8 -->
-                  <div class="flex-1" data-aos="flip-right">
-                    <div class="px-6 text-center">
-                      <img src="./assets/img/trainer/8.jpg" class="stock-img">
-                    </div>
-                  </div>
-                      </div>
-
-
-                      <br>
-                      <!-- 3 Batch -->
-                      <div class="flex space-x-4 " id="services-cards">
-            
-                        <!-- 9 -->
-                        <div class="flex-1" data-aos="flip-right">
-                          <div class="px-6 text-center">
-                           <img src="./assets/img/trainer/9.jpg" class="stock-img">
-                          </div>
-                        </div>
-            
-                        <!-- 10 -->
-                        <div class="flex-1" data-aos="flip-right">
-                          <div class="px-6 text-center">
-                            <img src="./assets/img/trainer/10.jpg" class="stock-img">
-                          </div>
-                        </div>
-            
-                        <!-- 11 -->
-                        <div class="flex-1" data-aos="flip-right">
-                          <div class="px-6 text-center">
-                            <img src="./assets/img/trainer/1.jpg" class="stock-img">
-                          </div>
-                        </div>
-            
-                        <!-- 12 -->
-                        <div class="flex-1" data-aos="flip-right">
-                          <div class="px-6 text-center">
-                            <img src="./assets/img/trainer/12.jpg" class="stock-img">
-                          </div>
-                        </div>
-                            </div>
-
-                            <br>
-                            <!-- 4 Batch -->
-                            <div class="flex space-x-4 " id="services-cards">
-                  
-                              <!-- 13 -->
-                              <div class="flex-1" data-aos="flip-right">
-                                <div class="px-6 text-center">
-                                 <img src="./assets/img/trainer/13.jpg" class="stock-img">
-                                </div>
-                              </div>
-                  
-                              <!-- 14 -->
-                              <div class="flex-1" data-aos="flip-right">
-                                <div class="px-6 text-center">
-                                  <img src="./assets/img/trainer/14.jpg" class="stock-img">
-                                </div>
-                              </div>
-                  
-                              <!-- 15 -->
-                              <div class="flex-1" data-aos="flip-right">
-                                <div class="px-6 text-center">
-                                  <img src="./assets/img/trainer/15.jpg" class="stock-img">
-                                </div>
-                              </div>
-                  
-                              <!-- 16 -->
-                              <div class="flex-1" data-aos="flip-right">
-                                <div class="px-6 text-center">
-                                  <img src="./assets/img/trainer/16.jpg" class="stock-img">
-                                </div>
-                              </div>
-                                  </div>
-
         </div>
       </section>
 
@@ -854,6 +735,36 @@
       </section>
 
     </main>
+    
+<!-- Trigger/Open The Modal -->
+<button style="display: none;" id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div  id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="flex justify-between">
+      <h1 class="promo_title"><b>Our <span class="promo_month"></span> Promotions</b></h1>
+      <span class="close">&times;</span>
+    </div>
+
+    <div class="flex">
+      <span class="m-5">  
+        <h5><b>Men's Packages</b></h5>
+        <img   height="160px" src="./assets/img/promo/men_promo-min.jpg" alt="Promotion Men">
+      </span>
+
+      <span class="m-5">
+        <h5><b>Women's Packages</b></h5>
+        <img    height="160px" src="./assets/img/promo/women_promo-min.jpg" alt="Promotion Women">
+      </span>
+    </div>
+
+  </div>
+
+</div>
+
+  
 
     <!-- Footer -->
     <footer class="relative bg-gray-300 pt-8 pb-6">
@@ -918,7 +829,7 @@
         >
           <div class="w-full md:w-4/12 px-4 mx-auto text-center">
             <div class="text-sm text-gray-600 font-semibold py-1">
-              Copyrights © Maxfit VIP Gym 2021 <br />
+              Copyrights © Maxfit VIP Gym <span class="year"></span> <br />
             </div>
           </div>
         </div>
@@ -932,6 +843,7 @@
   <!-- The facebook plugin -->
   <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0&appId=554677412120258&autoLogAppEvents=1" nonce="lvWxiB0a"></script>
+
 
 
 
@@ -966,4 +878,9 @@
     });
 });
   </script>
+
+
+
+  <script src="./assets/js/index.js"></script>
+
 </html>
